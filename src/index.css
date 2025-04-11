@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #232323;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+:root {
+  --primary-dark: #0D1F24;
+  --primary-medium: #2D4A53;
+  --primary-light: #69818D;
+  --accent: #A8ABAF;
+  --text-dark: #232323;
+  --text-light: #ffffff;
+}
