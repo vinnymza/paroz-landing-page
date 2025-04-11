@@ -44,9 +44,12 @@ const SectionDescription = styled.p`
 
 const ContactInfo = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 30px;
   margin-bottom: 40px;
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.midscreen}) {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
 `
 
 const ContactCard = styled.a`

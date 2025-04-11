@@ -25,6 +25,7 @@ const theme = {
   breakpoints: {
     mobile: '768px',
     tablet: '1024px',
+    midscreen: '1150px',
   },
 }
 

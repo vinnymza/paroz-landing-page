@@ -50,8 +50,8 @@ const HeroTitle = styled.h1`
   margin-bottom: 20px;
   line-height: 1.2;
   
-  @media screen and (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    font-size: 2.5rem;
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    font-size: 2rem;
   }
 `
 
@@ -64,6 +64,10 @@ const HeroDescription = styled.p`
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 30px;
   line-height: 1.6;
+  
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    font-size: 1rem;
+  }
 `
 
 const HeroButton = styled(ScrollLink)`
@@ -162,9 +166,6 @@ const Hero = () => {
           <HeroTitle>
           Escalamos tu negocio con <HeroHighlight>Software</HeroHighlight> entendiendo tu realidad.
           </HeroTitle>
-          <HeroDescription>
-          Creamos soluciones digitales a medida para escalar tu operación, optimizar tus procesos y hacer crecer tus ingresos.
-          </HeroDescription>
           <HeroDescription>
           No hacemos solo código, creamos impacto.
           </HeroDescription>

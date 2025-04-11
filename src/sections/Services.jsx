@@ -195,14 +195,14 @@ const Services = () => {
       description: 'Brindamos servicios de mantenimiento, actualización y optimización de sistemas existentes para asegurar su correcto funcionamiento y evolución.'
     }
   ]
-
+//Escalamos tu negocio con software a medida, entendiendo tu realidad. Somos tu partner tecnológico para crear soluciones digitales que resuelven problemas reales, no solo líneas de código.
   return (
     <ServicesContainer>
       <ServicesContent>
         <SectionTitle>Nuestros Servicios</SectionTitle>
         <SectionDescription>
-        Desarrollamos software y soluciones digitales de punta, con alta escalabilidad y calidad premium, totalmente a medida de lo que tu empresa necesita. 
-        Manejamos la última tecnología para que tu negocio destaque en el mercado digital actual.
+        Desarrollamos software y soluciones digitales entendiendo tu realidad. 
+        Somos tu partner tecnológico para crear soluciones digitales que resuelven problemas reales
         </SectionDescription>
         
         <ServicesGrid>
