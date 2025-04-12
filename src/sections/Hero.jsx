@@ -70,7 +70,8 @@ const HeroDescription = styled.p`
   }
 `
 
-const HeroButton = styled(ScrollLink)`
+//const HeroButton = styled(ScrollLink)`
+  const HeroButton = styled.a`
   display: inline-block;
   background-color: ${({ theme }) => theme.colors.accent};
   color: ${({ theme }) => theme.colors.primaryDark};
@@ -170,13 +171,9 @@ const Hero = () => {
           No hacemos solo código, creamos impacto.
           </HeroDescription>
           <HeroButton 
-            to="services" 
-            spy={true} 
-            smooth={true} 
-            duration={500} 
-            offset={-80}
+             href="https://calendly.com/gustavo-parozlabs/30min" target="_blank" rel="noopener noreferrer" aria-label="Agendá una reunión"
           >
-            Descubrir Más
+            Agendá una reunión
           </HeroButton>
         </HeroInfo>
         

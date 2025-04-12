@@ -102,6 +102,9 @@ const ValueProposition = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 30px;
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.midscreen}) {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
 `
 
 const ValueCard = styled.div`
@@ -198,7 +201,7 @@ const About = () => {
     {
       icon: <FaAward />,
       title: 'Experiencia',
-      description: 'Nuestro equipo cuenta con amplia experiencia como Tech Leads y Engineering Managers en empresas líderes como Eventbrite, Mercado Libre, Bitso y Mundi.'
+      description: 'Con mas de 15 años en la industria del Software, contamos con expertise en el ciclo del desarrollo de software'
     },
     {
       icon: <FaUsers />,
@@ -223,23 +226,21 @@ const About = () => {
         <SectionTitle>Sobre Nosotros</SectionTitle>
         <SectionDescription>
         Desde Mendoza, potenciamos negocios de toda la región con tecnología estratégica y escalable. 
-        No nacimos como una agencia, nacimos resolviendo problemas reales dentro de empresas como Eventbrite, Mercado Libre, Bitso y Mundi.io.
+        No nacimos como una agencia, nacimos resolviendo problemas reales dentro de empresas como Eventbrite, Mercado Libre, Bitso y Mundi.io
         </SectionDescription>
         
         <AboutGrid>
           <AboutInfo>
             <AboutTitle>Nuestra Filosofía</AboutTitle>
+      
             <AboutText>
-            En Paroz Labs no solo desarrollamos código, interpretamos el negocio detrás del software. 
-            Nos destacamos por comprender en profundidad los desafíos de nuestros clientes y crear soluciones digitales con impacto real y valor tangible.
-            </AboutText>
-            
-
+        Nos sentimos socios de quienes confían en nosotros, no simples ejecutores. 
+        Buscamos generar impacto real armando equipos de alto rendimiento que piensen junto al cliente, no por él. 
+        Creemos que la comprensión profunda del negocio es nuestra carta maestra: antes de escribir una sola línea de código, nos aseguramos de entender el “para qué”. 
+        </AboutText>
             <AboutText>
-            Nuestro equipo fundador cuenta con experiencia comprobada: se desempeñaron como Tech Leads y Engineering Managers en referentes del ecosistema tecnológico como 
-            Eventbrite, Mercado Libre, Bitso y Mundi. De estas empresas incorporaron metodologías de vanguardia en desarrollo de software, 
-            gestión de equipos y productos tecnológicos de alto rendimiento.
-            </AboutText>
+        Internamente trabajamos en squads ágiles y multidisciplinarios, lo que nos permite adaptarnos rápido, colaborar de forma eficiente y construir soluciones que funcionan desde el día uno.
+        </AboutText>
           </AboutInfo>
           
           <AboutImageContainer>

@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaCode, FaMobile, FaDatabase, FaCloud, FaChartLine, FaCogs, FaWhatsapp, FaEnvelope } from 'react-icons/fa'
+import { FaCode, FaMobile, FaDatabase, FaCloud, FaChartLine, FaCogs, FaWhatsapp, FaEnvelope, FaCalendar, FaRocket } from 'react-icons/fa'
+import { AiOutlineShareAlt } from "react-icons/ai";
+
 
 const ServicesContainer = styled.div`
   padding: 100px 0;
@@ -167,27 +169,27 @@ const Services = () => {
     {
       icon: <FaCode />,
       title: 'Desarrollo Web',
-      description: 'Creamos plataformas web a medida, aplicaciones SaaS y sistemas con las mejores prácticas y tecnologías como ReactJs, NodeJS, Java, PostgreSql.'
+      description: 'Creamos plataformas online a medida que hacen crecer tu negocio. Desde sistemas internos hasta productos para tus clientes, nos encargamos de todo para que funcione perfecto y se vea profesional.'
     },
     {
       icon: <FaMobile />,
       title: 'Aplicaciones Móviles',
-      description: 'Desarrollamos aplicaciones multiplataforma con React Native para Android e iOS que destacan por su rendimiento y experiencia de usuario.'
+      description: 'Creamos apps que funcionan tanto en Android como en iPhone, con una experiencia rápida, fluida y adaptada a lo que tus usuarios realmente necesitan.'
     },
     {
       icon: <FaDatabase />,
-      title: 'Arquitectura de Datos',
-      description: 'Diseñamos soluciones de bases de datos escalables y optimizadas para gestionar grandes volúmenes de información con PostgreSQL y otras tecnologías.'
+      title: 'Optimización de Información',
+      description: 'Te ayudamos a tener tus datos organizados, accesibles y útiles. Para que puedas tomar mejores decisiones, sin hojas de cálculo infinitas.'
     },
     {
-      icon: <FaCloud />,
-      title: 'Cloud y DevOps',
-      description: 'Implementamos soluciones cloud escalables y automatizamos procesos de desarrollo e integración continua para optimizar el ciclo de vida del software.'
+      icon: <FaRocket />,
+      title: 'Acompañamiento Post-Lanzamiento',
+      description: 'No te dejamos solo después del desarrollo. Te guiamos en los primeros meses, medimos resultados y ajustamos el producto con vos.'
     },
     {
-      icon: <FaChartLine />,
-      title: 'Consultoría Técnica',
-      description: 'Ofrecemos asesoramiento estratégico para potenciar su negocio digital, evaluar arquitecturas existentes y definir hojas de ruta tecnológicas.'
+      icon: <AiOutlineShareAlt />,
+      title: 'Inteligencia Artificial',
+      description: 'Aplicamos IA para automatizar procesos, mejorar decisiones y potenciar tus productos. Desde recomendaciones inteligentes hasta análisis predictivo, usamos tecnología real para resolver problemas reales de tu negocio.'
     },
     {
       icon: <FaCogs />,
@@ -204,7 +206,6 @@ const Services = () => {
         Desarrollamos software y soluciones digitales entendiendo tu realidad. 
         Somos tu partner tecnológico para crear soluciones digitales que resuelven problemas reales
         </SectionDescription>
-        
         <ServicesGrid>
           {services.map((service, index) => (
             <ServiceCard key={index}>
@@ -216,10 +217,10 @@ const Services = () => {
         </ServicesGrid>
 
         <ContactCTA>
-          <ContactText>¿Listo para impulsar tu proyecto con nuestros servicios?</ContactText>
+          <ContactText>¿Listo para impulsar tu empresa con nuestros servicios?</ContactText>
           <ContactButtons>
-            <ContactButton href="https://wa.me/5492616299794" target="_blank" rel="noopener noreferrer" aria-label="Contáctanos por WhatsApp">
-              <FaWhatsapp aria-hidden="true" title="WhatsApp de Paroz Labs" /> WhatsApp
+            <ContactButton href="https://calendly.com/gustavo-parozlabs/30min" target="_blank" rel="noopener noreferrer" aria-label="Agendá una reunión">
+              <FaCalendar aria-hidden="true" title="Agendá una reunión" /> Agendá una reunión
             </ContactButton>
             <ContactButton href="mailto:federico@parozlabs.com" aria-label="Envíanos un correo electrónico" secondary>
               <FaEnvelope aria-hidden="true" title="Email de Paroz Labs" /> Email

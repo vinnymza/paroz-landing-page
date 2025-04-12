@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaEnvelope, FaWhatsapp, FaMapMarkerAlt, FaLinkedin } from 'react-icons/fa'
+import { FaEnvelope, FaWhatsapp, FaMapMarkerAlt, FaLinkedin, FaCalendar } from 'react-icons/fa'
 
 const ContactContainer = styled.div`
   padding: 100px 0;
@@ -136,15 +136,15 @@ const Contact = () => {
             </ContactDetail>
           </ContactCard>
           
-          <ContactCard href="https://wa.me/5492616299794" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+          <ContactCard href="https://calendly.com/gustavo-parozlabs/30min" target="_blank" rel="noopener noreferrer" aria-label="Agendá una reunión">
             <ContactCardHeader>
               <ContactIcon>
-                <FaWhatsapp aria-hidden="true" title="WhatsApp de contacto" />
+                <FaCalendar aria-hidden="true" title="WhatsApp de contacto" />
               </ContactIcon>
-              <ContactLabel>WhatsApp</ContactLabel>
+              <ContactLabel>Agendá</ContactLabel>
             </ContactCardHeader>
             <ContactDetail>
-              +54 9 261 629-9794
+              Coordiná un encuentro. Sin compromiso
             </ContactDetail>
           </ContactCard>
           
