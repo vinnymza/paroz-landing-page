@@ -184,7 +184,7 @@ const Services = () => {
     {
       icon: <FaRocket />,
       title: 'Acompañamiento Post-Lanzamiento',
-      description: 'No te dejamos solo después del desarrollo. Te guiamos en los primeros meses, medimos resultados y ajustamos el producto con vos.'
+      description: 'No te dejamos solo después del desarrollo. Te guiamos, medimos resultados y ajustamos el producto con vos.'
     },
     {
       icon: <AiOutlineShareAlt />,
