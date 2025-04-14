@@ -54,9 +54,9 @@ function App() {
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+5492616299794",
+        "telephone": "+5492615456171",
         "contactType": "customer service",
-        "email": "federico@parozlabs.com"
+        "email": "hola@parozlabs.com"
       },
       "sameAs": [
         "https://www.linkedin.com/company/paroz-labs/"

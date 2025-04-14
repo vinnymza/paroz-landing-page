@@ -128,11 +128,11 @@ const Footer = () => {
         <FooterSection>
           <FooterTitle>Contacto</FooterTitle>
           <ContactInfo>
-            <ContactLink href="mailto:federico@parozlabs.com">
-              federico@parozlabs.com
+            <ContactLink href="mailto:hola@parozlabs.com">
+              hola@parozlabs.com
             </ContactLink>
-            <ContactLink href="https://wa.me/5492616299794" target="_blank" rel="noopener noreferrer">
-              <FaWhatsapp aria-hidden="true" title="WhatsApp de Paroz Labs" /> +54 9 261 629-9794
+            <ContactLink href="https://wa.me/5492615456171" target="_blank" rel="noopener noreferrer">
+              <FaWhatsapp aria-hidden="true" title="WhatsApp de Paroz Labs" /> +54 9 261 545-6171
             </ContactLink>
           </ContactInfo>
         </FooterSection>

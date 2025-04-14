@@ -222,7 +222,7 @@ const Services = () => {
             <ContactButton href="https://calendly.com/gustavo-parozlabs/30min" target="_blank" rel="noopener noreferrer" aria-label="Agendá una reunión">
               <FaCalendar aria-hidden="true" title="Agendá una reunión" /> Agendá una reunión
             </ContactButton>
-            <ContactButton href="mailto:federico@parozlabs.com" aria-label="Envíanos un correo electrónico" secondary>
+            <ContactButton href="mailto:hola@parozlabs.com" aria-label="Envíanos un correo electrónico a hola@parozlabs.com" secondary>
               <FaEnvelope aria-hidden="true" title="Email de Paroz Labs" /> Email
             </ContactButton>
           </ContactButtons>

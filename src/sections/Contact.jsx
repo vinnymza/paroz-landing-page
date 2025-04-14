@@ -132,7 +132,7 @@ const Contact = () => {
               <ContactLabel>Email</ContactLabel>
             </ContactCardHeader>
             <ContactDetail>
-              federico@parozlabs.com
+              hola@parozlabs.com
             </ContactDetail>
           </ContactCard>
           
